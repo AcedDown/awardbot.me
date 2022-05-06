@@ -182,12 +182,12 @@ const Header = ({ $, NavItems }) => {
               <div className="flex items-center space-x-4">
                 <img className="w-8 h-8" src="https://serity.me/img/serity-logo.png" />
                 <h1 className="font-light text-zinc-200">
-                  <b className="font-semibold text-white">Award</b> is part of <b className="font-semibold text-white">Serity</b>
+                  <b className="font-semibold text-white">Our bot</b> is partnered with <b className="font-semibold text-white">AliveHood</b>
                 </h1>
               </div>
               <div className="flex items-center justify-end md:justify-start space-x-4">
-                <a href="https://serity.me" target="_blank" className="hover:underline text-white font-light">
-                  <i className="fal fa-up-right-from-square mr-1" /> Visit Website
+                <a href="https://discord.gg/UjRR9UsRph" target="_blank" className="hover:underline text-white font-light">
+                  <i className="fal fa-up-right-from-square mr-1" /> Discord
                 </a>
                 <a className="cursor-pointer" onClick={() => {
                   if (typeof localStorage == "undefined") return;
@@ -209,7 +209,7 @@ const Header = ({ $, NavItems }) => {
                                 width="48" height="48"
                             />
                             <p className="invisible md:visible text-xl text-white font-semibold">
-                                <span className="text-amber-400">Award</span>Bot
+                                <span className="text-amber-400">Lunyx</span>Bot
                             </p>
                         </div>
                         <ul className="hidden lg:flex items-center space-x-4">
