@@ -12,7 +12,7 @@ module.exports = {
     },
     footer: {
         rights: 'All rights reserved.',
-        description: 'The best giveaway bot on Discord. Organically improve your social media accounts by creating giveaways. It\'s in your hands...',
+        description: 'A multifunctional bot for Discord that can improve your discord server in advanced & stylish terms. It\'s in your hands...',
         menus: {
             first: {
                 title: 'Important',
@@ -38,24 +38,24 @@ module.exports = {
                 }
             },
         },
-        developedWith: 'Developed with ❤️ by clqu & Swôth.',
+        developedWith: 'Developed with ❤️ by clqu & Swôth, Contributed by Ace',
         allServices: 'All services are online.',
         someServices: 'Some services are down.'
     },
     index: {
-        title: 'The best giveaway bot on Discord.',
-        description: 'By creating advanced giveaways with Award, you can improve your social media accounts and gain organic lift!',
+        title: 'A multifunctional bot on Discord.',
+        description: 'By managing your server using our bot\'s advanced features, you can improve your social gains and grow amazingly.',
         buttons: {
-            dashboard: 'Dashboard',
+            dashboard: 'Invite',
             support: 'Support Server',
             with_discord: 'Login with Discord'
         },
         features: {
-            title: 'Why <span class="text-amber-500 font-bold">Award</span>',
-            description: 'With Award, you can improve your social media accounts and get organic increases by creating advanced sweepstakes!',
+            title: 'Why <span class="text-amber-500 font-bold">Lunyx</span>',
+            description: 'With Lunyx, you can improve your social gains and get amazing increases by creating advanced sweepstakes!',
             buttonText: 'Add to Discord',
             items: [
-                 { icon: 'fal fa-star', title: 'Easily Create Conditional Giveaway', description: 'You can have the members of your dreams in a short time. You can get organic increase by opening conditional giveaway by following your social media accounts such as youtube, twitch, tiktok on Award. Why not try opening a raffle for more information?' },
+                 { icon: 'fal fa-star', title: 'Easily Manage Your Server', description: 'You can have the members of your dreams in a short time. You can get organic increase by managing your server in a way that fits it. Why not try opening a raffle for more information?' },
                  { icon: 'fal fa-star', title: 'Build Your Own Giveaways', description: 'You can quickly add the bot to the server and create and customize your own giveaway on the site. You can check who has participated in the giveaway in detail via the Dashboard.'},
                  { icon: 'fal fa-star', title: 'Discover Giveaways ', description: 'You can participate in the giveaway according to you in the Discover section and win prizes, and you can see the remaining time and detailed information on the panel.' },
                  { icon: 'fal fa-star', title: 'Self Feel Special', description: 'By purchasing Boost, you can giveaway more than 20 simultaneous giveaways on your server, however, you can repeat and embed 20 times on a giveaway. You can make it safe by adding a password to your giveaways.' }
