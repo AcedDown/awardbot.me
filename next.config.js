@@ -19,7 +19,7 @@ module.exports = withPWA({
         return [
           {
             source: '/invite',
-            destination: 'https://awardbot-demo.herokuapp.com/v1/invite/bot',
+            destination: 'https://api.lunyx.me/v1/invite/bot',
             permanent: true,
           },
         ]
