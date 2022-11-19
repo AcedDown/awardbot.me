@@ -1,5 +1,5 @@
 module.exports = {
-    titleSuffix: " | Award",
+    titleSuffix: " | Lunyx",
     titles: {
         '/': 'Home',
         '/partners': 'Partners',
