@@ -11,7 +11,7 @@ import axios from 'axios';
 export default function Footer({ $ }) {
     const [ apiAlive, setApiAlive ] = useState(null);
 
-    axios.get("https://awardbot-demo.herokuapp.com")
+    axios.get("https://api.lunyx.me")
         .catch(() => {
             setApiAlive(false);
         }).then(res => {
