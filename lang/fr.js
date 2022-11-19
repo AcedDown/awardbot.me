@@ -25,7 +25,7 @@ module.exports = {
         },
       },
       second: {
-        title: "Award",
+        title: "Lunyx",
         items: {
           partners: "Les partenaires",
           team: "Équipe",
@@ -39,22 +39,22 @@ module.exports = {
         },
       },
     },
-    developedWith: "Développé avec ❤️ par clqu & Swôth.",
+    developedWith: "Développé avec ❤️ par clqu, Swôth & seigfried.",
     allServices: "Tous les services sont en ligne.",
     someServices: "Certains services sont en panne.",
   },
   index: {
     title: "Le meilleur bot giveaway sur Discord.",
     description:
-      "En créant des cadeaux avancés avec Award, vous pouvez améliorer vos comptes de médias sociaux et gagner en visibilité organique !",
+      "En créant des cadeaux avancés avec Lunyx, vous pouvez améliorer vos comptes de médias sociaux et gagner en visibilité organique !",
     buttons: {
       dashboard: "Tableau de bord",
       support: "Serveur d'assistance",
       with_discord: "Se connecter avec Discord",
     },
     features: {
-      title: 'Pourquoi <span class="text-amber-500 font-bold">Award</span>',
-      description: 'Vous pouvez améliorer vos comptes de médias sociaux et obtenir une augmentation organique en créant des tirages au sort avancés avec Award!',
+      title: 'Pourquoi <span class="text-amber-500 font-bold">Lunyx</span>',
+      description: 'Vous pouvez améliorer vos comptes de médias sociaux et obtenir une augmentation organique en créant des tirages au sort avancés avec Lunyx!',
       buttonText: 'Ajouter au Discord',
       items: [
           { icon: 'fal fa-star', title: 'Créer facilement un cadeau conditionnel', description: "Vous pouvez avoir les membres de vos rêves en peu de temps. Vous pouvez obtenir une augmentation organique en ouvrant des tirages au sort conditionnels en suivant vos comptes de médias sociaux tels que youtube, twitch, tiktok sur Award. Pourquoi ne pas essayer d'ouvrir une tombola pour plus d'informations ?"},
@@ -64,8 +64,8 @@ module.exports = {
       ]
   },
   advanced: [
-      { placement: "left", imageUrl: 'https://i.imgur.com/YY3hwTn.png', title: 'Développez vos comptes', description: 'Avec Award, vous pouvez développer vos comptes de manière organique.'},
-      { placement: "right", imageUrl: 'https://i.imgur.com/5X0ha3F.png', title: 'Verrouillez vos tirages au sort', description: 'Chiffrez vos tirages au sort en privé avec le système de verrouillage de Award.' },
+      { placement: "left", imageUrl: 'https://i.imgur.com/YY3hwTn.png', title: 'Développez vos comptes', description: 'Avec Lunyx, vous pouvez développer vos comptes de manière organique.'},
+      { placement: "right", imageUrl: 'https://i.imgur.com/5X0ha3F.png', title: 'Verrouillez vos tirages au sort', description: 'Chiffrez vos tirages au sort en privé avec le système de verrouillage de Lunyx.' },
       { placement: "left", imageUrl: 'https://i.imgur.com/RPomYws.png', title: "Développez votre serveur.", description: "Vous pouvez développer vos serveurs en ajoutant une condition d'invitation à leurs cadeaux." }
   ],
     statistics: {
@@ -109,7 +109,7 @@ module.exports = {
   team: {
     title: "Dites bonjour aux héros !",
     description:
-      "Vous pouvez trouver tous ceux qui travaillent et contribuent <br> à Award. Un grand merci à notre équipe. <3",
+      "Vous pouvez trouver tous ceux qui travaillent et contribuent <br> à Lunyx. Un grand merci à notre équipe. <3",
     linkcordLang: "en",
     noWidget: "Aucun widget",
     roles: {
@@ -242,7 +242,7 @@ module.exports = {
     auditLog: {
       title: "Journal d'audit",
       description:
-        "Le journal d'audit des modifications apportées à Award sur ce serveur peut être consulté ici.",
+        "Le journal d'audit des modifications apportées à Lunyx sur ce serveur peut être consulté ici.",
       table: {
         user: "Utilisateur",
         date: "Date",
