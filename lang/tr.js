@@ -24,7 +24,7 @@ module.exports = {
         }
       },
       second: {
-        title: 'Award',
+        title: 'Lunyx',
         items: {
           partners: 'Ortaklar',
           team: 'Ekip'
@@ -38,32 +38,32 @@ module.exports = {
         }
       },
     },
-    developedWith: 'clqu & Swôth tarafından ❤️ ile geliştirildi.',
+    developedWith: 'clqu, Swôth & seigfried tarafından ❤️ ile geliştirildi.',
     allServices: 'Tüm hizmetler çalışıyor.',
     someServices: 'Bazı hizmetler çalışmıyor.'
   },
   index: {
     title: 'Discord\'daki en iyi çekiliş botu!',
-    description: 'Award ile gelişmiş çekilişler oluşturarak sosyal medya hesaplarınızı iyileştirebilir ve organik artış elde edebilirsiniz!',
+    description: 'Lunyx ile gelişmiş çekilişler oluşturarak sosyal medya hesaplarınızı iyileştirebilir ve organik artış elde edebilirsiniz!',
     buttons: {
       dashboard: 'Yönetim Paneli',
       support: 'Destek Sunucusu',
       with_discord: 'Discord ile devam et'
     },
     features: {
-      title: 'Neden <span class="text-amber-500 font-bold">Award</span>',
-      description: 'Award ile gelişmiş çekilişler oluşturarak sosyal medya hesaplarınızı iyileştirebilir ve organik artış elde edebilirsiniz!',
+      title: 'Neden <span class="text-amber-500 font-bold">Lunyx</span>',
+      description: 'Lunyx ile gelişmiş çekilişler oluşturarak sosyal medya hesaplarınızı iyileştirebilir ve organik artış elde edebilirsiniz!',
       buttonText: 'Discord\'a ekle',
       items: [
-        { icon: 'fal fa-star', title: 'Kolayca Şartlı Çekiliş Oluşturun', description: 'Hayallerinizdeki üyelere kısa bir sürede sahip olabilirsiniz.Award üzerinden youtube,twitch,tiktok gibi sosyal medya hesaplarınızı takip şartlı çekilişler açarak organik artış elde edebilirsiniz.Daha fazla bilgi için neden bir tane çekiliş açmayı denemiyorsun ki?' },
+        { icon: 'fal fa-star', title: 'Kolayca Şartlı Çekiliş Oluşturun', description: 'Hayallerinizdeki üyelere kısa bir sürede sahip olabilirsiniz.Lunyx üzerinden youtube,twitch,tiktok gibi sosyal medya hesaplarınızı takip şartlı çekilişler açarak organik artış elde edebilirsiniz.Daha fazla bilgi için neden bir tane çekiliş açmayı denemiyorsun ki?' },
         { icon: 'fal fa-star', title: 'Kendi Çekişinizi Oluşturun', description: 'Hızlıca botu sunucuna eklerek site üzerinden kendi çekişinizi oluşturabilir özelleştirebilirsiniz.Detaylı olarak çekilişe kimin katıldığını Gösterge paneli üzerinden kontrol edebilirsiniz. '},
         { icon: 'fal fa-star', title: 'Çekilişleri Keşfedin', description: 'Keşfet kısmından kendinize göre olan çekilişlere katılabilir ve ödüller kazanabilir ve bitmesine kalan süreyi ve detaylı bilgileri panel üstünden görebilirsiniz.' },
         { icon: 'fal fa-star', title: 'Kendinizi özel hissedin', description: 'Boost satın alarak sunucunuzda 20 dan fazla aynı anda çekiliş yapabilir bununla birlikte bir çekiliş üzerinde 20 kere tekrarlayabilir ve embed düzenliyebilirsiniz. çekilişerinize şifre ekleyerek güvenli bir hale getirebilirsiniz.' }
       ]
     },
     advanced: [
-      { placement: "left", imageUrl: 'https://i.imgur.com/YY3hwTn.png', title: 'Hesaplarınızı büyütün', description: 'Award ile hesaplarınızı organik olarak geliştirin ve büyütün.' },
-      { placement: "right", imageUrl: 'https://i.imgur.com/5X0ha3F.png', title: 'Çekilişlerinizi kilitleyin', description: 'Award\'in kilit sistemiyle çekilişlerinizi özel olarak şifreleyin.' },
+      { placement: "left", imageUrl: 'https://i.imgur.com/YY3hwTn.png', title: 'Hesaplarınızı büyütün', description: 'Lunyx ile hesaplarınızı organik olarak geliştirin ve büyütün.' },
+      { placement: "right", imageUrl: 'https://i.imgur.com/5X0ha3F.png', title: 'Çekilişlerinizi kilitleyin', description: 'Lunyx\'in kilit sistemiyle çekilişlerinizi özel olarak şifreleyin.' },
       { placement: "left", imageUrl: 'https://i.imgur.com/RPomYws.png', title: 'Sunucunuzu büyütün', description: "Çekilişlerine davetiye şartı ekleyerek sunucularınızı daha hızlı büyütebilirsiniz." },
     ],
     statistics: {
@@ -104,7 +104,7 @@ module.exports = {
   },
   team: {
     title: 'Kahramanlarımız',
-    description: 'Award\'e çalışan ve katkıda <br> bulunan herkesi bulabilirsiniz. Ekibimize çok teşekkürler. <3',
+    description: 'Lunyx\'e çalışan ve katkıda <br> bulunan herkesi bulabilirsiniz. Ekibimize çok teşekkürler. <3',
     linkcordLang: 'tr',
     noWidget: 'Araç bulunamadı.',
 
@@ -193,7 +193,7 @@ module.exports = {
     },
     connections: {
       title: 'Bağlantılar',
-      description: 'Award\'e bağlamış olduğunuz sosyal medya hesaplarını buradan yönetebilirsiniz.',
+      description: 'Lunyx\'e bağlamış olduğunuz sosyal medya hesaplarını buradan yönetebilirsiniz.',
       button: {
         logout: 'Çıkış yapmak için tıkla',
         connect: '<b>{PROVIDER}</b> ile bağlan',
@@ -229,7 +229,7 @@ module.exports = {
     },
     auditLog: {
       title: 'Denetim Kaydı',
-      description: 'Bu sunucuda Award\'te üzerinde yapılan değişikliklerin denetim kaydı burada görülebilir.',
+      description: 'Bu sunucuda Lunyx\'te üzerinde yapılan değişikliklerin denetim kaydı burada görülebilir.',
       table: {
         user: 'Kullanıcı',
         date: 'Tarih',
