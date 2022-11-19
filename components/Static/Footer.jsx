@@ -30,7 +30,7 @@ export default function Footer({ $ }) {
                         <div className="col-span-3">
                             <div className="flex items-center space-x-5">
                                 <img src="/img/logo.png" className="w-12" />
-                                <p className="font-semibold text-xl text-white">Award</p>
+                                <p className="font-semibold text-xl text-white">Lunyx</p>
                             </div>
                             <Menu as="div" className="relative mt-3 inline-block text-left">
                                 <div>
@@ -169,7 +169,7 @@ export default function Footer({ $ }) {
                             --------------------------
                         */}
                         <p className="text-white text-center sm:text-right text-opacity-50">
-                            {"Developed with ❤️ by clqu & Swôth."}
+                            {"Developed with ❤️ by clqu, Swôth & seigfried"}
                         </p>
                         {/* 
                             --------------------------
