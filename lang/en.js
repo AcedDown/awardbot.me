@@ -24,7 +24,7 @@ module.exports = {
                 }
             },
             second: {
-                title: 'Award',
+                title: 'Lunyx',
                 items: {
                     partners: 'Partners',
                     team: 'Team'
@@ -38,7 +38,7 @@ module.exports = {
                 }
             },
         },
-        developedWith: 'Developed with ❤️ by clqu & Swôth, Contributed by Ace',
+        developedWith: 'Developed with ❤️ by clqu, Swoth & seigfried',
         allServices: 'All services are online.',
         someServices: 'Some services are down.'
     },
@@ -62,8 +62,8 @@ module.exports = {
             ]
         },
         advanced: [
-            { placement: "left", imageUrl: 'https://i.imgur.com/YY3hwTn.png', title: 'Grow your accounts', description: 'Develop and grow your accounts organically with Award.'},
-            { placement: "right", imageUrl: 'https://i.imgur.com/5X0ha3F.png', title: 'Lock your giveaways', description: "Privately encrypt your giveaways with Award's lock system." },
+            { placement: "left", imageUrl: 'https://i.imgur.com/YY3hwTn.png', title: 'Grow your accounts', description: 'Develop and grow your accounts organically with Lunyx.'},
+            { placement: "right", imageUrl: 'https://i.imgur.com/5X0ha3F.png', title: 'Lock your giveaways', description: "Privately encrypt your giveaways with Lunyx's lock system." },
             { placement: "left", imageUrl: 'https://i.imgur.com/RPomYws.png', title: 'Grow your server', description: "You can grow your servers faster by adding an invitation requirement to their giveaways." }
         ],
         statistics: {
@@ -104,7 +104,7 @@ module.exports = {
     },
     team: {
         title: 'Say hello to heroes!',
-        description: 'You can find everyone who works and contributes <br> to Award. Many thanks to our team. <3',
+        description: 'You can find everyone who works and contributes <br> to Lunyx. Many thanks to our team. <3',
         linkcordLang: 'en',
         noWidget: 'No Widget',
         roles: {
@@ -192,7 +192,7 @@ module.exports = {
         },
         connections: {
             title: 'Connections',
-            description: 'You can manage social media accounts on Award here.',
+            description: 'You can manage social media accounts on Lunyx here.',
             button: {
                 logout: 'Click to logout',
                 connect: 'Connect to <b>{PROVIDER}</b>',
@@ -228,7 +228,7 @@ module.exports = {
         },
         auditLog: {
             title: 'Audit Log',
-            description: 'Audit log of changes made to Award on this server can be seen here.',
+            description: 'Audit log of changes made to Lunyx on this server can be seen here.',
             table: {
                 user: 'User',
                 date: 'Date',
