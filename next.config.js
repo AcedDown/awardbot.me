@@ -2,7 +2,7 @@
 
 {
   dest: 'public',
-}
+};
 
 module.exports = withPWA({
 
