@@ -20,7 +20,7 @@ const MobileNavbar = ({ Menu, open, setOpen, NavItems }) => {
                 <div className="flex justify-between border-b border-white/20 items-center px-5 py-4">
                     <div className="flex items-center">
                         <img width="32" className="icon-glow" src="/img/logo.png" />
-                        <p className=" font-extrabold ml-1 text-2xl">Award</p>
+                        <p className=" font-extrabold ml-1 text-2xl">Lunyx</p>
                     </div>
                     <button onClick={() => setOpen(!open)}><i className="cursor-pointer fa fa-times text-xl mr-2" /></button>
                 </div>
@@ -180,14 +180,14 @@ const Header = ({ $, NavItems }) => {
         <>
           {banner && <div className="bg-amber-900/20 py-2 px-4 rounded-xl mt-5 md:flex items-center md:justify-between">
               <div className="flex items-center space-x-4">
-                <img className="w-8 h-8" src="https://serity.me/img/serity-logo.png" />
+                <img className="w-8 h-8" src="https://uberrbx.com/static/imgs/liveusers.svg" />
                 <h1 className="font-light text-zinc-200">
-                  <b className="font-semibold text-white">Our bot</b> is partnered with <b className="font-semibold text-white">AliveHood</b>
+                  <b className="font-semibold text-white">Our bot</b> is partnered with <b className="font-semibold text-white">UberRBX</b>
                 </h1>
               </div>
               <div className="flex items-center justify-end md:justify-start space-x-4">
-                <a href="https://discord.gg/UjRR9UsRph" target="_blank" className="hover:underline text-white font-light">
-                  <i className="fal fa-up-right-from-square mr-1" /> Discord
+                <a href="https://uberrbx.com" target="_blank" className="hover:underline text-white font-light">
+                  <i className="fal fa-up-right-from-square mr-1" /> Website
                 </a>
                 <a className="cursor-pointer" onClick={() => {
                   if (typeof localStorage == "undefined") return;
