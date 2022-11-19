@@ -1,7 +1,7 @@
   const withPWA = require("next-pwa");
 
 module.exports = withPWA({
-   mode: {
+   images: {
         domains: [ "cdn.discordapp.com" ]
     },
     i18n: {
