@@ -799,7 +799,7 @@ export default function Main({
                   </div>
                   <div id="messageContent" className="pl-[12px]">
                     <span className="flex items-center">
-                      <a className="hover:underline cursor-pointer">Award</a>
+                      <a className="hover:underline cursor-pointer">Lunyx</a>
                       <span className="discord-bot">bot</span>
                       <span className="timestamp">
                         <time
