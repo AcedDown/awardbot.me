@@ -49,7 +49,7 @@ export default function Main({ $, boost, guild }) {
         if (l_loading) return;
         set_l_loading(true);
 
-        const _save = await axios.post("https://awardbot-demo.herokuapp.com/v1/guilds/" + (guild?.id || "#") + "/settings?_token=" + 
+        const _save = await axios.post("https://api.lunyx.me/v1/guilds/" + (guild?.id || "#") + "/settings?_token=" + 
             (typeof window !== "undefined"
             ? window.localStorage.getItem("$Award_token")
             : ""), 
@@ -133,7 +133,7 @@ export default function Main({ $, boost, guild }) {
                     <div id="messageContent" className="pl-[12px]">
 
                         <span className="flex items-center">
-                            <a className="hover:underline cursor-pointer">Award</a>
+                            <a className="hover:underline cursor-pointer">Lunyx</a>
                             <span className="discord-bot">bot</span>
                             <span className="timestamp">
                                 <time aria-label={`Today at ${new Date().getHours()}:{new Date().getMinutes()}`} dateTime={Date.now()}>
