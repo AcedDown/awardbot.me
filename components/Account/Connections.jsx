@@ -9,8 +9,8 @@ export default function Main({ $, user }) {
       userCheck: user.connections["youtube"]
         ? user.connections["youtube"]
         : null,
-      connectUrl: "https://awardbot-demo.herokuapp.com/v1/connections/youtube/login",
-      logoutUrl: "https://awardbot-demo.herokuapp.com/v1/connections/youtube/logout",
+      connectUrl: "https://api.lunyx.me/v1/connections/youtube/login",
+      logoutUrl: "https://api.lunyx.me/v1/connections/youtube/logout",
     },
     {
       id: "github",
