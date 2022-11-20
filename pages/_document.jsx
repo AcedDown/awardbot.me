@@ -17,29 +17,29 @@ class MyDocument extends Document {
           <meta name="googlebot" content="index,follow" />
           <meta
             name="description"
-            content="By creating advanced giveaways with Award, you can improve your social media accounts and gain organic lift!"
+            content="By creating advanced giveaways with Lunyx, you can improve your social media accounts and gain an organic lift!"
           />
           <meta name="twitter:card" content="summary" />
-          <meta name="twitter:site" content="@Awardbot" />
-          <meta name="twitter:creator" content="@Awardbot" />
-          <meta property="og:url" content="https://www.awardbot.me" />
+          <meta name="twitter:site" content="@Lunyx" />
+          <meta name="twitter:creator" content="@Lunyx" />
+          <meta property="og:url" content="https://www.lunyx.me" />
           <meta property="og:type" content="website" />
-          <meta property="og:title" content="Award | Feature of Giveaways" />
+          <meta property="og:title" content="Lunyx | Future of Giveaways" />
           <link
             rel="icon"
-            href="https://awardbot.me/img/logo.png"
+            href="https://lunyx.me/img/logo.png"
             type="image/x-icon"
           />
           <meta
             property="og:description"
-            content="By creating advanced giveaways with Award, you can improve your social media accounts and gain organic lift!"
+            content="By creating advanced giveaways with Lunyx, you can improve your social media accounts and gain an organic lift!"
           />
-          <meta property="og:image" content="https://awardbot.me/img/logo.png" />
-          <meta property="og:image:alt" content="Award" />
+          <meta property="og:image" content="https://lunyx.me/img/logo.png" />
+          <meta property="og:image:alt" content="Lunyx" />
           <meta property="og:locale" content="en_GB" />
           <meta
             property="og:site_name"
-            content="Award | Feature of Giveaways"
+            content="Lunyx | Future of Giveaways"
           />
           <meta name="theme-color" content="#ea822d" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
