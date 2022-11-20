@@ -104,7 +104,7 @@ module.exports = {
     },
     team: {
         title: 'Say hello to heroes!',
-        description: 'You can find everyone who works and contributes <br> to Lunyx. Many thanks to our team. <3',
+        description: 'You can find everyone who works and contributes to Lunyx. <br>Many thanks to our team. <3',
         linkcordLang: 'en',
         noWidget: 'No Widget',
         roles: {
@@ -164,7 +164,7 @@ module.exports = {
         button: "Submit",
         presentationPrivate: 'Private',
         presentationPublic: 'Public',
-        requirementsDropdownText: 'You searching more options? Lookup the your connections.',
+        requirementsDropdownText: 'Are you searching for more options? Lookup your connections.',
         presentationTippy: 'Important setting',
         unReachTippy: 'This is your right to open a giveaway. You have the right to open {MORE} more giveaways.',
         reachTippy: 'You have reached your giveaway limit.',
@@ -203,9 +203,9 @@ module.exports = {
         redeem: {
             title: 'Redeem',
             description: 'You can redeem your code here!',
-            inputPlaceholder: 'Your gift code here',
+            inputPlaceholder: 'Your promocode here',
             button: 'Redeem',
-            didntWork: 'The code didn\'t work?',
+            didntWork: 'Your code didn\'t work?',
             success: '🎉 Congratulations! {COUNT} boosts added to your account!'
         }
     },
@@ -228,7 +228,7 @@ module.exports = {
         },
         auditLog: {
             title: 'Audit Log',
-            description: 'Audit log of changes made to Lunyx on this server can be seen here.',
+            description: 'Audit log of the changes made to Lunyx on this server can be seen here.',
             table: {
                 user: 'User',
                 date: 'Date',
