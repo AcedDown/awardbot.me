@@ -4,9 +4,9 @@
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "Award",
-    "short_name": "Award",
-    "description": "Award is a giveaway bot. It is ready to serve you with its innovative features.",
+    "name": "Lunyx",
+    "short_name": "Lunyx",
+    "description": "Lunyx is a giveaway bot. It is ready to serve you with its innovative features.",
     "icons": [
         {
             "src": "/icon-192x192.png",
