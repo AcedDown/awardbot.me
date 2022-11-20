@@ -16,7 +16,7 @@ const DefaultResponse = () => {
       <div className="flex flex-col col-span-5 items-center justify-center">
         <i className="fad fa-spinner-third fa-spin text-white text-2xl" />
         <p className="italic text-white">
-          <strong>Tip: </strong>Award reached 80 servers on December 26 2021.
+          <strong>Tip: </strong>Lunyx was first introduced to Driba#2892
         </p>
       </div>
     </div>
@@ -25,7 +25,7 @@ const DefaultResponse = () => {
 
 export default function Overview({ $ }) {
   const { id } = useRouter().query;
-  const { data: _user } = swr("https://awardbot-demo.herokuapp.com/v1/auth/me");
+  const { data: _user } = swr("https://api.lunyx.me/v1/auth/me");
   const user = _user ? _user.data : null;
   const [pin, setPin] = useState('');
   const [pinEntered, setPinEntered] = useState('');
@@ -48,7 +48,7 @@ export default function Overview({ $ }) {
   };
 
   const { data: _overview } = swr(
-    "https://awardbot-demo.herokuapp.com/v1/giveaway/" + id + "/overview"
+    "https://api.lunyx.me/v1/giveaway/" + id + "/overview"
   );
   const overview = _overview ? _overview.data : null;
   const handleOnChange = async (res) => {
@@ -62,7 +62,7 @@ export default function Overview({ $ }) {
         setTimeout(async() => {
           try {
             const _request = await axios.post(
-              "https://awardbot-demo.herokuapp.com/v1/giveaway/" +
+              "https://api.lunyx.me/v1/giveaway/" +
               overview.id +
               "/check/pin?q="+pin+"&_token=" +
               window?.localStorage?.getItem("$Award_token")
@@ -95,7 +95,7 @@ export default function Overview({ $ }) {
           message: "This giveaway has been finished.",
         }).show();
       const _request = await axios.post(
-        "https://awardbot-demo.herokuapp.com/v1/giveaway/" +
+        "https://api.lunyx.me/v1/giveaway/" +
         giveaway.id +
         "/join?pin="+pin+"&_token=" +
         window?.localStorage?.getItem("$Award_token")
@@ -312,13 +312,13 @@ export default function Overview({ $ }) {
                 <input
                   disabled
                   className="mt-2 text-xs py-2 px-4 w-full text-white bg-black bg-opacity-20 rounded-lg"
-                  value={`https://awardbot.me/g/${id}?r=_share`}
+                  value={`https://lunyx.me/g/${id}?r=_share`}
                 />
                 <Tippy content="Copy to clipboard.">
                   <i
                     onClick={() =>
                       copyToClipboard(
-                        `https://awardbot.me/g/${id}?r=_share`
+                        `https://lunyx.me/g/${id}?r=_share`
                       )
                     }
                     className="fal fa-paste cursor-pointer text-white ml-2"
