@@ -2,7 +2,7 @@ import { useState } from "react";
 import Countdown from "react-countdown";
 
 const CountdownPage = ({ line = true, ms, isBoost = false }) => {
-  const Completionist = () => <span>This {isBoost ? "boost" : "giveaway"} expired.</span>;
+  const Completionist = () => <span>This {isBoost ? "boost" : "giveaway"} is expired.</span>;
   const currentTime = Date.now();
   const EndAt = currentTime + ms;
 
