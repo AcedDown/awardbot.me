@@ -140,7 +140,7 @@ const Header = ({ $, NavItems }) => {
                         `).join("")}
                         ${(user.notifications || []).length < 1 ? `
                             <li class="p-5">
-                                <h3 class="text-center">😞 No notification here!</h3>
+                                <h3 class="text-center">😞 No notifications yet!</h3>
                             </li>
                         ` : ``}
                     </ul>
@@ -180,14 +180,14 @@ const Header = ({ $, NavItems }) => {
         <>
           {banner && <div className="bg-amber-900/20 py-2 px-4 rounded-xl mt-5 md:flex items-center md:justify-between">
               <div className="flex items-center space-x-4">
-                <img className="w-8 h-8" src="https://uberrbx.com/static/imgs/liveusers.svg" />
+                <img className="w-8 h-8" src="https://www.pngitem.com/pimgs/m/108-1083749_white-discord-logo-png-png-free-discord-icon.png" />
                 <h1 className="font-light text-zinc-200">
-                  <b className="font-semibold text-white">Our bot</b> is partnered with <b className="font-semibold text-white">UberRBX</b>
+                  <b className="font-semibold text-white">Lunyx</b> has a <b className="font-semibold text-white">Discord Server</b>
                 </h1>
               </div>
               <div className="flex items-center justify-end md:justify-start space-x-4">
-                <a href="https://uberrbx.com" target="_blank" className="hover:underline text-white font-light">
-                  <i className="fal fa-up-right-from-square mr-1" /> Website
+                <a href="https://discord.gg/UJnVJH5V" target="_blank" className="hover:underline text-white font-light">
+                  <i className="fal fa-up-right-from-square mr-1" /> Join
                 </a>
                 <a className="cursor-pointer" onClick={() => {
                   if (typeof localStorage == "undefined") return;
