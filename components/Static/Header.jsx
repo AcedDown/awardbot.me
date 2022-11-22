@@ -180,7 +180,7 @@ const Header = ({ $, NavItems }) => {
         <>
           {banner && <div className="bg-amber-900/20 py-2 px-4 rounded-xl mt-5 md:flex items-center md:justify-between">
               <div className="flex items-center space-x-4">
-                <img className="w-8 h-8" src="https://www.pngitem.com/pimgs/m/108-1083749_white-discord-logo-png-png-free-discord-icon.png" />
+                <img className="w-8 h-8" src="https://i.imgur.com/TTlvb69.png" />
                 <h1 className="font-light text-zinc-200">
                   <b className="font-semibold text-white">Lunyx</b> has a <b className="font-semibold text-white">Discord Server</b>
                 </h1>
